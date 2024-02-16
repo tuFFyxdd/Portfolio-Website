@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.logo {
+    margin-right: auto; 
+    padding-left: 3rem;
+}
+.logo img {
+    max-width: 70px;
+}
+#Navbar {
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    background-color: antiquewhite;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#hero-container {
+    position: relative;
+    margin-top: 6rem;
+}
+
+#Navbar ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 8rem;
+    list-style-type: none;
+}
+
+#Navbar li {
+    font-size: 1.50rem;
+    padding-right: 30px;
+    font-weight: 500;
+    list-style: none;
+}
+#Navbar a {
+    text-decoration: none; 
+    color: black;
+}
+#Navbar a:hover {
+    cursor: pointer;
+    color: rgb(218, 49, 49);
+}
+
+/* #Navbar li:hover {
+    cursor: pointer;
+    color: rgb(218, 49, 49);
+} */
+
+#hero {
+    padding-top: 10rem;
+    padding-left: 3rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-div {
+    width: 50%;
+}
+.right-div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-div img {
+    max-width: 100%;
+    height: 29rem;
+}
+
+#myName {
+    font-size: 3rem;
+}
+
+/* .hero-btn {
+    border-radius: 20px;
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgb(218, 49, 49);
+    color: #ffff;
+    cursor: pointer;
+} */
+.cv:hover {
+    background-color: rgb(172, 33, 33);
+}
+.fancy {
+ background-color: transparent;
+ border: 2px solid rgb(218, 49, 49);
+ border-radius: 0;
+ box-sizing: border-box;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ font-weight: 700;
+ letter-spacing: 0.05em;
+ margin: 0;
+ outline: none;
+ overflow: visible;
+ padding: 1.25em 2em;
+ position: relative;
+ text-align: center;
+ text-decoration: none;
+ text-transform: none;
+ transition: all 0.3s ease-in-out;
+ user-select: none;
+ font-size: 13px;
+}
+
+.fancy::before {
+ content: " ";
+ width: 1.5625rem;
+ height: 2px;
+ background: black;
+ top: 50%;
+ left: 1.5em;
+ position: absolute;
+ transform: translateY(-50%);
+ transform-origin: center;
+ transition: background 0.3s linear, width 0.3s linear;
+}
+
+.fancy .text {
+ font-size: 1.125em;
+ line-height: 1.33333em;
+ padding-left: 2em;
+ display: block;
+ text-align: left;
+ transition: all 0.3s ease-in-out;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: black;
+}
+
+.fancy .top-key {
+ height: 2px;
+ width: 1.5625rem;
+ top: -2px;
+ left: 0.625rem;
+ position: absolute;
+ background: #e8e8e8;
+ transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.fancy .bottom-key-1 {
+ height: 2px;
+ width: 1.5625rem;
+ right: 1.875rem;
+ bottom: -2px;
+ position: absolute;
+ background: #e8e8e8;
+ transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy .bottom-key-2 {
+ height: 2px;
+ width: 0.625rem;
+ right: 0.625rem;
+ bottom: -2px;
+ position: absolute;
+ background: #e8e8e8;
+ transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy:hover {
+ color: white;
+ background: rgb(218, 49, 49);
+ border-color: #333;
+}
+
+.fancy:hover::before {
+ width: 0.9375rem;
+ background: white;
+}
+
+.fancy:hover .text {
+ color: white;
+ padding-left: 1.5em;
+}
+
+.fancy:hover .top-key {
+ left: -2px;
+ width: 0px;
+}
+
+.fancy:hover .bottom-key-1,
+ .fancy:hover .bottom-key-2 {
+ right: 0;
+ width: 0;
+}
+
+/* About SECTION */
+#aboutme {
+    height: 700px;
+    padding-top: 100px
+}
+#About {
+    padding-left: 3rem;
+    top: 0;
+    color: #1F1717;
+}
+#About-divide {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+}
+.kaliwa img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.kanan {
+    padding-left: 5rem;
+    width: 50%;
+}
+.kanan p {
+    color: #34312D;
+    text-align: justify;
+}
+#Skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.skill-container {
+    text-align: center;
+    width: 18%;
+    margin: 10px; 
+}
+.skill-container img {
+    width: 70px;
+}
+.skill-container img:hover {
+    cursor: pointer;
+}
+
+
+/* Projects */
+#Project {
+    width: 100%;
+    height: 2700px;
+    /* padding-left: 3rem; */
+    padding-top: 3rem;
+    background-color: #252422;
+    color: #ffff;
+    text-align: center;
+    padding-top: 90px
+}
+#Project h1 {
+    justify-content: center;
+    display: flex;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+}
+
+.picture-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* .picture-container h2 {
+    color: #DFA67B;
+} */
+.picture {
+    width: 530px; 
+    height: 420px; 
+    background-color: lightgray; 
+    border-radius: 10px;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 20px;
+    background-color:rgb(218, 49, 49);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+}
+.picture-container button:hover {
+    background-color: rgb(214, 28, 28);
+    border-radius: 20px;
+}
+
+
+
+
+/* Contacts  */
+#Contact {
+    width: 100%;
+    height: 610px;
+    padding-left: 3rem;
+    /* padding-top: 3rem; */
+    padding-top: 90px
+}
+#Contact h1 {
+    justify-content: center;
+    display: flex;
+    color: rgb(214, 28, 28);
+    letter-spacing: 1px;
+    font-size: 3rem;
+}
+#Contact h2 {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+.contact-form {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group.row {
+    flex-direction: row;
+}
+
+.form-group.row .col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: rgb(211, 54, 54);
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.698);
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #fff;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: rgb(218, 49, 49);
+}
+
+.cta span:hover {
+    color: #fff;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+
+
+/* Footer */
+#Footer {
+    width: 100%;
+    height: 120px;
+    padding: 5px;
+    background-color: #FAEED1;
+    
+
+}
+#Footer h2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#Footer p {
+    justify-content: center;
+    display: flex;
+
+}
+
+
+/* Undone */
+@media screen and (max-width: 768px) {
+  
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #Navbar {
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #Navbar ul {
+        padding-right: 1rem;
+    }
+}
