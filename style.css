@@ -9,7 +9,7 @@ body {
     width: 100%;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container {
@@ -29,18 +29,18 @@ body {
     height: 6rem;
     background-color: antiquewhite;
     width: 100%;
-    justify-content: end;
+    justify-content: space-between;  
     align-items: center;
     z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
+    padding-right: 3rem; 
 }
 
 #Navbar ul {
     display: flex;
     flex-direction: row;
-    padding-right: 8rem;
     list-style-type: none;
 }
 
@@ -50,10 +50,20 @@ body {
     font-weight: 500;
     list-style: none;
 }
+
 #Navbar a {
     text-decoration: none; 
     color: black;
 }
+
+#Navbar a:hover {
+    cursor: pointer;
+    color: rgb(218, 49, 49);
+    border-top: 2px solid;
+    border-color: rgb(218, 49, 49);
+    border-radius: 20%;
+}
+
 #Navbar a:hover {
     cursor: pointer;
     color: rgb(218, 49, 49);
