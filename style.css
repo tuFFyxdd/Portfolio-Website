@@ -214,6 +214,9 @@ body {
 }
 
 /* About SECTION */
+.box {
+    width: 100%;
+}
 #aboutme {
     height: 700px;
     padding-top: 100px
@@ -578,13 +581,15 @@ button {
     }
 
     /* ABOUT */
+    .box {
+        width: 100%;
+    }
     #aboutme {
         height: 110vh;
         background-image: none;
+        width: 100%;
     }
     #About-divide {
-        display: flex;
-        flex-direction: row;
         padding-left: 2rem;
     }
     #About {
