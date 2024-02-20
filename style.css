@@ -515,9 +515,14 @@ button {
 
 
 /* Responsive */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) { */
+    @media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
     body {
       font-size: 14px; 
+      width: 100%;
     }
   
     #Navbar {
